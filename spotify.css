@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+body{
+    background-color:rgb(18, 18, 18);
+}
+
+*{
+    color:white;
+    font-family: 'Lato', sans-serif;
+}
+
+.card{
+    background-color: rgb(24, 24, 24);
+    display: inline-block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 200px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: ease-in-out 0.25s;
+}
+
+.card:hover{
+    background-color: rgba(24, 24, 24,0.5);
+}
+
+.profile{
+    width:100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50px;
+    margin-bottom:8px;
+}
+
+.name{
+    font-weight: bold;
+    font-size: 32px;
+    margin-top:8px;
+    margin-bottom:10px;
+}
+
+.category{
+    margin-top:10px;
+    font-weight: bold;
+    background-color:rgb(18, 18, 18);
+    display: inline-block;
+    padding:8px 10px 8px 10px;
+    border-radius: 200px;
+}
+
+.box{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 20px;
+}
